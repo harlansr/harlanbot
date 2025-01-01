@@ -1,0 +1,196 @@
+{
+    "intents": {
+        "main": [
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "hello",
+                    "who are you",
+                    "hi there",
+                    "hey",
+                    "what's up",
+                    "howdy",
+                    "hi",
+                    "good morning",
+                    "good afternoon",
+                    "good evening",
+                    "how's it going",
+                    "yo",
+                    "how are you",
+                    "hello assistant",
+                    "hey there",
+                    "what can you do",
+                    "what's happening",
+                    "nice to meet you"
+                ],
+                "responses": [
+                    "Hello, I'm your assistant",
+                    "Hi, I'm your assistant",
+                    "Greetings! How can I assist you today?",
+                    "Hey there! What can I do for you?",
+                    "Hello! How may I help?"
+                ]
+            },
+            {
+                "tag": "goodbye",
+                "patterns": [
+                    "bye",
+                    "I need to go",
+                    "see you later",
+                    "goodbye",
+                    "catch you later",
+                    "I'm off",
+                    "talk to you soon",
+                    "take care",
+                    "farewell",
+                    "I'm leaving",
+                    "good night",
+                    "until next time",
+                    "see you soon",
+                    "have a great day",
+                    "have a good one",
+                    "I'm heading out"
+                ],
+                "responses": [
+                    "Okay, have a nice day",
+                    "See you again",
+                    "Goodbye, take care!",
+                    "Catch you later, have a great day!",
+                    "Take care, see you soon"
+                ]
+            },
+            {
+                "tag": "thank_you",
+                "patterns": [
+                    "thank you",
+                    "thanks",
+                    "thanks a lot",
+                    "I appreciate it",
+                    "many thanks",
+                    "thank you so much",
+                    "thanks a ton",
+                    "I'm grateful",
+                    "thanks a million",
+                    "much appreciated",
+                    "I'm so thankful"
+                ],
+                "responses": [
+                    "You're welcome!",
+                    "Happy to help!",
+                    "No problem!",
+                    "Glad I could assist you!",
+                    "You're very welcome!"
+                ]
+            },
+            {
+                "tag": "help",
+                "patterns": [
+                    "can you help me",
+                    "I need help",
+                    "help me",
+                    "assist me",
+                    "I need assistance",
+                    "can you assist me",
+                    "I'm looking for help",
+                    "can you guide me",
+                    "please help",
+                    "I need some guidance",
+                    "help me out",
+                    "can you show me how",
+                    "can you support me"
+                ],
+                "responses": [
+                    "Sure, how can I assist you?",
+                    "What do you need help with?",
+                    "I'm here to help! Please tell me what you need.",
+                    "How can I support you today?",
+                    "Let me know how I can assist."
+                ]
+            },
+            {
+                "tag": "weather",
+                "patterns": [
+                    "what's the weather like",
+                    "is it raining today",
+                    "how's the weather",
+                    "weather forecast",
+                    "is it sunny",
+                    "will it snow today",
+                    "what's the temperature",
+                    "how warm is it outside",
+                    "is it cold today",
+                    "is there a storm coming",
+                    "is it hot outside",
+                    "how's the sky looking",
+                    "what's the forecast like"
+                ],
+                "responses": [
+                    "Sorry, I can't provide weather updates at the moment.",
+                    "I don't have access to weather data right now, but you can check a weather app.",
+                    "You might want to check a weather website for the latest forecast."
+                ]
+            },
+            {
+                "tag": "joke",
+                "patterns": [
+                    "tell me a joke",
+                    "make me laugh",
+                    "do you know any jokes",
+                    "say something funny",
+                    "tell a joke",
+                    "crack a joke",
+                    "give me a joke",
+                    "I need a good laugh",
+                    "can you entertain me",
+                    "tell me something funny"
+                ],
+                "responses": [
+                    "Why don't skeletons fight each other? They don't have the guts!",
+                    "Why did the computer go to the doctor? It had a virus!",
+                    "What do you call fake spaghetti? An impasta!",
+                    "Why don’t eggs tell jokes? They’d crack each other up!",
+                    "Why can't you trust an atom? Because they make up everything!"
+                ]
+            },
+            {
+                "tag": "sorry",
+                "patterns": [
+                    "I'm sorry",
+                    "apologies",
+                    "my bad",
+                    "excuse me",
+                    "sorry about that",
+                    "oops",
+                    "I apologize",
+                    "forgive me"
+                ],
+                "responses": [
+                    "No worries!",
+                    "It's okay, don't worry about it!",
+                    "All good, no need to apologize!",
+                    "No problem at all!",
+                    "It's fine, don't mention it!"
+                ]
+            },
+            {
+                "tag": "name",
+                "patterns": [
+                    "what's your name",
+                    "who are you",
+                    "what should I call you",
+                    "can I know your name",
+                    "tell me your name",
+                    "what is your name",
+                    "who am I talking to"
+                ],
+                "responses": [
+                    "I am your assistant, nice to meet you!",
+                    "You can call me Assistant.",
+                    "I don't have a specific name, but you can call me whatever you like!",
+                    "I am just an assistant here to help you.",
+                    "My name is Assistant. How can I assist you today?"
+                ]
+            }
+        ]
+    }
+}
