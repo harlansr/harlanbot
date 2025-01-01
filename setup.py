@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="harlanbot",
-    version="0.0.2",
+    version="0.1.1",
     packages=find_packages(),
     install_requires=[
         'nltk',
@@ -12,8 +12,7 @@ setup(
         'pillow==9.5.0'
     ],
     author="HarlanSR",
-    author_email="harlan.setia@gmail.com",
-    description="You can custom and train your AI",
+    description="Create your own custom chatbot",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     package_data={

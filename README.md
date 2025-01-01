@@ -1,13 +1,12 @@
 # HarlanBOT
 
-Create your own custom chatbot, HarlanBOT is a Python module designed for creating AI-based chatbots. This module utilizes various natural language processing (NLP) and deep learning technologies to enable the bot to learn from conversations and provide relevant responses based on user input.
+HarlanBOT is a Python module designed for creating AI-based chatbots. This module utilizes various natural language processing (NLP) and deep learning technologies to enable the bot to learn from conversations and provide relevant responses based on user input.
 
 ## Features
 
 - **Easy Customization**: Easily add, modify, or remove intents and responses in the JSON file.
 - **Train the ChatBot**: Train the chatbot using data from a JSON file containing intents and responses.
 - **Real-time Interaction**: The chatbot can respond in real-time based on user input.
-- **Integration with TensorFlow and TFLearn**: Uses TensorFlow and TFLearn to train the chatbot’s deep learning model.
 
 ## Installation
 
@@ -98,7 +97,7 @@ After customizing the `intents.json` file, when you run:
 bot.train()
 ```
 
-This will train the AI according to the data in `intents.json`. Alternatively, you can train the model everytime code running when you modify the code:
+This will train the AI according to the data in `intents.json`. Alternatively, you can train the model everytime code running by modify the code like this:
 
 ```python
 from harlanbot import ChatBot
@@ -115,10 +114,10 @@ bot = ChatBot(train=True)
 |--------------|------------------------------------------------------------|
 | train()      | Manually train the chatbot with provided data             |
 | load()       | Load the trained data model                               |
-| ask(message) | Ask a question to the AI and get an answer                  |
+| ask()        | Ask a question to the AI and get an answer                  |
 | run_loop()   | Run the chatbot in a loop to facilitate continuous Q&A    |
 
-### ChatBot( *train*, *accuracy*, *files*, *message_default* )
+### Class **ChatBot( *train*, *accuracy*, *files*, *message_default* )**
 
 | Name            | Type    | Default | Description                                |
 |-----------------|---------|---------|--------------------------------------------|
@@ -128,14 +127,14 @@ bot = ChatBot(train=True)
 | message_default | string  | "Sorry, I don't understand" | Message to display when the accuracy is below the defined threshold |
 
 
-### ask( *message*, *need_accuracy* )
+### Function **ask( *message*, *need_accuracy* )**
 
 | Name         | Type    | Default | Description                                               |
 |--------------|---------|---------|-----------------------------------------------------------|
 | message      | string  |         | The message that you want to ask the bot                  |
 | need_accuracy| boolean | False   | Whether to include the accuracy value with the response   |
 
-### run_loop( *need_accuracy* )
+### Function **run_loop( *need_accuracy* )**
 
 | Name         | Type    | Default | Description                                               |
 |--------------|---------|---------|-----------------------------------------------------------|
@@ -147,7 +146,7 @@ bot = ChatBot(train=True)
 from harlanbot import ChatBot
 
 bot = ChatBot(True, 0.9)  # Set to False if you don't want the bot to train every time
-answer = bot.ask("Hello") 
+answer = bot.ask("Hello, nice to meet you") 
 print(answer)
 ```
 
