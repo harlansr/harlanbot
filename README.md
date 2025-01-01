@@ -1,6 +1,6 @@
 # HarlanBOT
 
-HarlanBOT is a Python module designed for creating AI-based chatbots. This module utilizes various natural language processing (NLP) and deep learning technologies to enable the bot to learn from conversations and provide relevant responses based on user input.
+HarlanBOT is a Python module designed for creating AI-based chatbots. This module utilizes various natural language processing (NLP) and deep learning technologies to enable the bot to learn from registered conversation samples and provide relevant responses based on user input.
 
 ## Features
 
