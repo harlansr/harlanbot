@@ -12,8 +12,6 @@ HarlanBOT is a Python module designed for creating AI-based chatbots. This modul
 
 Follow the steps below to install and set up HarlanBOT:
 
-### Installation Steps
-
 1. **Install the package**:
 
     ```bash
